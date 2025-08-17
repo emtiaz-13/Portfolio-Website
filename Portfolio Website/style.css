@@ -305,7 +305,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  gap: 20px;
+  gap: 10px;
 }
 
 .achievement-item {
@@ -350,7 +350,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  gap: 20px;
+  gap: 10px;
 }
 
 .project-item {
@@ -365,6 +365,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 5px;
 }
 
 .project-item:hover {
@@ -391,11 +392,10 @@ body {
   color: white;
   border: 1px solid #4ea8f4;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 15px;
   font-size: 20px;
   font-weight: 500;
-  display: block;
-  margin-top: auto;
+  display: inline-block;
 }
 .contact-container {
   margin-left: 100px;
@@ -537,3 +537,4 @@ body {
   font-size: 20px;
   font-weight: 300;
 }
+
